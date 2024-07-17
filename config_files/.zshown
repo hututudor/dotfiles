@@ -1,0 +1,21 @@
+# these are ignored by the zsh, but can be used to set the defaults in ~/.zshrc
+# ZSH_THEME="cypher"
+# plugins=(git npm node zsh-autosuggestions zsh-syntax-highlighting)
+
+export EDITOR='emacs'
+
+alias p="cd ~/projects"
+alias etv="cd ~/projects/etvas"
+
+alias ga="git add ."
+alias gs="git status"
+alias gc="git commit"
+alias gm="git commit -m"
+alias gp="git push"
+alias gl="git pull"
+alias gf="git fetch"
+alias gb="git branch"
+alias ns="npm start"
+alias nb="npm run build"
+alias ntest="npm run test"
+
