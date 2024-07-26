@@ -19,3 +19,4 @@ alias ns="npm start"
 alias nb="npm run build"
 alias ntest="npm run test"
 
+alias emacsi="emacs --no-window-system"
