@@ -15,3 +15,7 @@ if [ ! -L ~/.zshown ]; then
 
   ln -s $(pwd)/config_files/.zshown ~/.zshown
 fi
+
+if [ ! -L ~/.emacs.d ]; then
+  ln -s $(pwd)/config_files/.emacs.d ~/.emacs.d 
+fi
